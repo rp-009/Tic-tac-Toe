@@ -4,7 +4,7 @@ A simple, interactive Tic-Tac-Toe web game built using HTML, CSS, and vanilla Ja
 
 ## Live Demo
 
-🌍 **[Play the Game Here](https://www.google.com/search?q=%23)**
+🌍 **[Play the Game Here](https://rp-009.github.io/Tic-tac-Toe/)**
 
 ## Features
 
