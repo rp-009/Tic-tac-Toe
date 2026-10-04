@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    color: #730f0c;
+    font-size: 10vmin;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+/* conatiner takes 70% of page, game takes 60% of the container, and 3 boxes group takes 60/3 = 18% (rounding down)*/
+.container{
+    height: 65vh; /* vh: viewport height */
+    /* give same game properties */
+    display: flex; /*so that flexbox activates*/
+    justify-content: center; /* the boxes are in the centre of the game */
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin; /*so that all boxes come in 3 different lines and not a single*/
+    display: flex; /*so that flexbox activates*/
+    flex-wrap: wrap;/* so that boxes are spread across multiple lines */
+    justify-content: center; /* the boxes are in the centre of the game */
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#b0413e;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newGame-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#b0413e;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color:#ffffc7;
+    font-size: 5vmin;
+    
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*so that para and button are in 2 diff lines */
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
